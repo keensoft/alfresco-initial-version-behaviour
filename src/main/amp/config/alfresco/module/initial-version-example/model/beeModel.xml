@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="bee:beemodel" xmlns="http://www.alfresco.org/model/dictionary/1.0">
+
+	<description>BEE Model</description>
+	<author>orderofthebee.org</author>
+	<version>1.0</version>
+
+	<imports>
+		<import uri="http://www.alfresco.org/model/dictionary/1.0" prefix="d" />
+		<import uri="http://www.alfresco.org/model/content/1.0" prefix="cm" />
+	</imports>
+
+	<namespaces>
+		<namespace uri="http://www.orderofthebee.org/model/content/1.0" prefix="bee" />
+	</namespaces>
+	
+    <types>
+        <type name="bee:document">
+            <title>Bee Content Type</title>
+            <parent>cm:content</parent>
+        </type>
+   </types>
+
+	
+	
+</model>
